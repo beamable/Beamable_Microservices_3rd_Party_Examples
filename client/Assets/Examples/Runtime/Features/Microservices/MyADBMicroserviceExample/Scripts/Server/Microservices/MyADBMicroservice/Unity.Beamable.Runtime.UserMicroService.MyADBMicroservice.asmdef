@@ -1,0 +1,25 @@
+{
+    "name": "Unity.Beamable.Runtime.UserMicroService.myadbmicroservice",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Shared",
+        "Unity.Beamable",
+        "Beamable.SmallerJSON"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "AWSSDK.Core.dll",
+        "AWSSDK.DynamoDBv2.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
