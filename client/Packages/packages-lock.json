@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "com.beamable": {
-      "version": "0.17.4",
+      "version": "1.2.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0",
-        "com.unity.addressables": "1.16.16",
+        "com.unity.addressables": "1.18.19",
         "com.unity.textmeshpro": "1.4.1"
       },
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
@@ -19,24 +19,26 @@
         "com.beamable": "0.11.0",
         "com.beamable.server": "0.11.0"
       },
-      "hash": "ebc33c7a81c0b66ad508599fa07694e2e7704189"
+      "hash": "ff932830f484aad6273971da9a39cb1cb2a11b3e"
     },
     "com.beamable.server": {
-      "version": "0.17.4",
+      "version": "1.2.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.beamable": "0.17.4"
+        "com.beamable": "1.2.1"
       },
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
     },
     "com.unity.addressables": {
-      "version": "1.16.16",
+      "version": "1.18.19",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.15.2",
+        "com.unity.scriptablebuildpipeline": "1.19.2",
         "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       },
@@ -75,7 +77,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.15.2",
+      "version": "1.19.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {},

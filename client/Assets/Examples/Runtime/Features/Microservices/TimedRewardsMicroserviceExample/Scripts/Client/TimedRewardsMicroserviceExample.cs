@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using Beamable.Server.Clients;
+﻿using Beamable.Server.Clients;
+using UnityEngine;
 
 namespace Beamable.Examples.Features.Microservices.TimedRewardsMicroserviceExample
 {
@@ -32,9 +32,10 @@ namespace Beamable.Examples.Features.Microservices.TimedRewardsMicroserviceExamp
         //  Methods  --------------------------------------
         private async void SetupBeamable()
         {
-            var beamableAPI = await Beamable.API.Instance;
+            var beamContext = BeamContext.Default;
+            await beamContext.OnReady;
 
-            Debug.Log($"beamableAPI.User.id = {beamableAPI.User.id}");
+            Debug.Log($"beamContext.PlayerId = {beamContext.PlayerId}");
             
             _timedRewardServiceClient = new TimedRewardServiceClient();
             
